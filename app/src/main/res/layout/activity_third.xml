@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity">
+    <ImageView
+        android:id="@+id/refriger"
+        android:src="@drawable/refrigerator"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="TODO" />
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/mac"
+        android:src="@drawable/macbook"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/tv"
+        android:src="@drawable/tv"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/mob"
+        android:src="@drawable/mobile"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</FrameLayout>
